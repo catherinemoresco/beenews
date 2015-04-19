@@ -1,0 +1,77 @@
+html{
+	background:url('/static/hexagon.svg');
+	padding: 0px;
+	font-family: 'Cardo', sans-serif;
+  background-size: 100px;
+}
+
+body{
+	margin: 0px;
+}
+
+a > h2{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+a > h2:hover{
+	font-style: italic
+}
+
+
+a{
+	color:black;
+	text-decoration: none;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	margin: auto;
+	text-align: center;
+	font-size: 60px;
+}
+
+h2{
+	margin-bottom:5px;
+}
+
+h6{
+	margin: 0px 0px;
+}
+
+.about{
+	margin:5px 0px;
+}
+
+div.center-content{
+	width: 70%;
+	max-width: 800px;
+	min-width: 600px;
+	/*background: #F5D76E;*/
+	background: white;
+	height: 100%;
+	margin:auto;
+	padding: 30px;
+}
+
+div.main-title > img{
+	width: 100%;
+}
+
+.bee{
+  position: absolute;
+}
+
+.byline, .byline > a{
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #ccc;
+}
+.byline > a {
+  font-weight: bold; 
+  text-decoration: underline;
+}
+

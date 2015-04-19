@@ -1,0 +1,36 @@
+<!doctype HTML>
+<title>Bee News!</title>
+<link href='http://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+<body>
+
+	<div class = "page">
+		<div class="center-content">
+			<div class="main-title">
+				<img src="static/beenews.svg">
+			</div>
+			{% for key, value in curated_headlines.iteritems() %}
+				<a href="{{value[0]}}"><h2>{{key}}</h2>
+					<div class="where-and-when">
+						<h6>{{value[1]}}<h6>
+					</div>
+					<div class="about">
+						{{value[2]}}
+					</div>
+				</a>
+
+<!-- 				Someday there will be animated bees...but today is not that day.
+
+					<div class="bee">
+					<a href="{{value[0]}}">
+						<img src="static/bee.svg" width="20px">
+					</a>
+				</div> -->
+			{% endfor %}
+			<div class="byline">
+				Made with love by <a href="http://catmores.co">Catherine Moresco</a> <br>
+				&copy; 2015
+		</div>
+	</div>
+</body>
