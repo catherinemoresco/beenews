@@ -5,6 +5,8 @@ a web application that scrapes google news for the latest news about bees
 I have a lot of friends who like bees.
 ### How?
 It scrapes the first page of Google News, and slaps the content onto a bee-themed page.
+### Where?
+It's live [here](http://catmoresco.pythonanywhere.com/), for now.
 ### This seems pointless...
 So?
 ### What do you have planned next for beenews?
