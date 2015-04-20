@@ -11,6 +11,8 @@ It's live [here](http://catmoresco.pythonanywhere.com/), for now.
 So?
 ### What do you have planned next for beenews?
 Maybe parallax scrolling, maybe some bee particles flying aroung in the background...the sky is the limit, really.
+
+*Update*: parallax scrolling is now a reality. Thank you to everyone who has supported me throughout this effort, you're the ones that got Bee News to where it is today.
 ### Thank you for making this. It has enriched my life.
 You're welcome. That's why I do what I do.
 
