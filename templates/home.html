@@ -6,6 +6,8 @@
 <body>
 
 	<div class = "page">
+		<div class="bg">
+		</div>
 		<div class="center-content">
 			<div class="main-title">
 				<img src="static/beenews.svg">
@@ -34,3 +36,15 @@
 		</div>
 	</div>
 </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+	function parallax(){
+		var scrolled = $(window).scrollTop();
+		$('.bg').css('top', -(scrolled * 0.15) + 'px')
+	}
+
+	$(window).scroll(function(e){
+		parallax();
+	});
+</script>
